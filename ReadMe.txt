@@ -1,4 +1,4 @@
- I implemented two mappers and reducers.
+I implemented two mappers and reducers and tested them on a cluster.
 
 Command used for first job:
 mapred streaming -files mapper.py,reducer.py -mapper 'python mapper.py' -reducer 'python reducer.py' -input hw1 -output job_one
